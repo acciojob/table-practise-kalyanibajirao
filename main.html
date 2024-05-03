@@ -4,10 +4,55 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+        /* Apply yellow background to the entire table */
+        table {
+            background-color: yellow;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        /* Add a 1px solid black border to table elements */
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        /* Style the table caption */
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<table>
+        <!-- Table Caption -->
+        <caption>Student Details</caption>
+        <!-- Table Headers -->
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+        <!-- Table Content -->
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>20</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>22</td>
+                <td>Electrical Engineering</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
     <script type="text/javascript" src="./script.js">
 </script>
 
